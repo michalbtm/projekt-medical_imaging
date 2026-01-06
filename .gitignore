@@ -1,2 +1,5 @@
-*.pyc
+﻿*.pyc
 __pycache__/
+data/
+output/
+output_nii/
