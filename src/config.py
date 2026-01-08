@@ -3,7 +3,7 @@ import json
 
 def load_settings():
     """Wczytuje ustawienia z pliku JSON"""
-    with open('settings.json', 'r', encoding='utf-8') as f:
+    with open('../settings.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
 

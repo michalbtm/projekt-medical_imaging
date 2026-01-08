@@ -35,7 +35,8 @@ def process_algorithm(img, img_name, algo_name, algo_config, output_base):
 
 def process_single_image(img_path, settings, output_base, use_denoising):
     """Przetwarza jeden obraz według ustawień"""
-    img_name = Path(img_path)
+    img_path_obj = Path(img_path)
+    img_name = img_path_obj.stem
     try:
 
         img = io.imread(img_path)

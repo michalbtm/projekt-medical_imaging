@@ -21,8 +21,8 @@ def main():
         return
     
     # Przygotowanie katalogów
-    input_dir = Path('input')
-    output_dir = Path('output')
+    input_dir = Path('../input')
+    output_dir = Path('../output')
     
     if not input_dir.exists():
         print("\n[BLAD] Katalog 'input' nie istnieje!\n")
